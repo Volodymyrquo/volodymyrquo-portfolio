@@ -45,7 +45,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/devcamp.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -57,7 +57,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/eventbrite.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -69,7 +69,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/open-devos.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -81,7 +81,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/crondose.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -93,7 +93,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/dailysmarty.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -105,7 +105,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/dashtrack.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -117,7 +117,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/edutechional.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -129,7 +129,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/eventbrite.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -141,7 +141,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/ministry-safe.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -153,7 +153,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/shop-hacker.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -165,7 +165,7 @@
           ></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="quip" />
+              <img src="images/logos/toastability.png" alt="quip" />
             </div>
             <div class="subtitle">I build the Quip ecommerce platform</div>
           </div>
@@ -173,4 +173,15 @@
       </div>
     </div>
   </body>
+  <script>
+    const portfolioItems = document.querySelectorAll(".portfolio-item-wrapper");
+    portfolioItems.forEach((portfolioItem) => {
+      portfolioItem.addEventListener("mouseover", () => {
+        portfolioItem.childNodes[1].classList.add("img-darken");
+      });
+      portfolioItem.addEventListener("mouseout", () => {
+        portfolioItem.childNodes[1].classList.remove("img-darken");
+      });
+    });
+  </script>
 </html>
